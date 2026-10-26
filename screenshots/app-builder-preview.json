@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Orbit Shelf",
+      "hasCanvas": false,
+      "bodyTextLen": 1249,
+      "bodyTextHash": "c6a2e987fd89c2ca37542fc26ad7b34aefadf5f744cd74a82459908a8763b2f8",
+      "bodyTextPrefix": "OS Orbit Shelf Browse Library Submit Studio STATION CATALOG Play",
+      "horizontalOverflow": false,
+      "consoleErrors": [
+        "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <OutletImpl>\n      <Suspense fallback={null}>\n        <MatchImpl routeId=\"/\">\n          <MatchView router={{...}} match={{id:\"//\",ssr:true, ...}}>\n            <CatchBoundary getResetKey={function getResetKey} errorComponent={function AppErrorComponent} ...>\n              <MatchInnerImpl match={{id:\"//\",ssr:true, ...}}>\n                <Lazy>\n                  <Home>\n                    <Shell>\n                      <div className=\"min-h-scre...\">\n                        <header className=\"sticky top...\">\n                          <div className=\"mx-auto fl...\">\n                            <a>\n                            <form className=\"ml-auto hi...\" onSubmit={function onSubmit}>\n                              <Search>\n                              <input\n                                value=\"\"\n                                onChange={function onChange}\n                                placeholder=\"Search the shelf\"\n                                className=\"h-11 w-full bg-transparent text-sm outline-none placeholder:text-muted\"\n                                aria-label=\"Search games\"\n-                               style={{caret-color:\"transparent\"}}\n                              >\n                            ...\n                        ...\n"
+      ],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Orbit Shelf",
+      "hasCanvas": false,
+      "bodyTextLen": 1220,
+      "bodyTextHash": "b9b5f8d242945f03074ff387b93eba6ba732e5606f31780be011e7c651627c3b",
+      "bodyTextPrefix": "OS Orbit Shelf STATION CATALOG Play what docks. You decide what ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

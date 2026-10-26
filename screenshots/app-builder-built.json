@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Orbit Shelf",
+      "hasCanvas": false,
+      "bodyTextLen": 1249,
+      "bodyTextHash": "c6a2e987fd89c2ca37542fc26ad7b34aefadf5f744cd74a82459908a8763b2f8",
+      "bodyTextPrefix": "OS Orbit Shelf Browse Library Submit Studio STATION CATALOG Play",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Orbit Shelf",
+      "hasCanvas": false,
+      "bodyTextLen": 1220,
+      "bodyTextHash": "b9b5f8d242945f03074ff387b93eba6ba732e5606f31780be011e7c651627c3b",
+      "bodyTextPrefix": "OS Orbit Shelf STATION CATALOG Play what docks. You decide what ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
